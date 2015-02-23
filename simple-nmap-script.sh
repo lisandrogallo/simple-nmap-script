@@ -36,18 +36,18 @@ done
 
 usage ()
 {
-echo "Uso: ${0##*/} [-b] -f {source_file} {scan_name} [initials]"
-echo "     ${0##*/} [-b] -i {ip_range} {scan_name} [initials]"
-echo "     ${0##*/} -h"
-echo "     ${0##*/} -u"
+echo "Usage: ${0##*/} [-b] -f {source_file} {scan_name} [initials]"
+echo "       ${0##*/} [-b] -i {ip_range} {scan_name} [initials]"
+echo "       ${0##*/} -h"
+echo "       ${0##*/} -u"
 echo ""
-echo "     -h shows this help"
-echo "     -u shows user list"
-echo "     -b scan only high ports (optional)"
-echo "     -f take a file containing IP addresses"
-echo "     -i IP range to scan (notation: 10.10.10.0-255 o 10.10.10.0/24."
-echo "     {scan_name} it cannot contain whitespaces"
-echo "     [initials] user initials"
+echo "       -h shows this help"
+echo "       -u shows user list"
+echo "       -b scan only high ports (optional)"
+echo "       -f take a file containing IP addresses"
+echo "       -i IP range to scan (notation: 10.10.10.0-255 o 10.10.10.0/24."
+echo "       {scan_name} it cannot contain whitespaces"
+echo "       [initials] user initials"
 echo ""
 }
 
